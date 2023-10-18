@@ -1,0 +1,243 @@
+.Search_bar {
+    height: 30px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+  }
+  .Logo {
+    height: 20px;
+    width: 17%;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .img {
+    height: 20px;
+    width: 105px;
+    margin-bottom: 6px;
+  }
+  
+  .Search {
+    height: 15px;
+    width: 280px;
+    margin-left: 3px;
+    /* margin-top: 7px; */
+    margin-left: 16px;
+    font-size: 8px;
+    display: flex;
+    border: 1px solid black;
+  }
+  .Search:focus {
+    outline: blue;
+  }
+  .SearchContainer {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+  }
+  .SearchIcon {
+    margin-right: 10px; /* Adjust the margin as needed */
+    border: 1px solid black;
+    font-size: 10px;
+    width: 20px;
+    height: 15px;
+  }
+  .Login {
+    height: 15px;
+    width: 150px;
+    /* border: 1px solid black; */
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+    margin-left: 10px;
+  }
+  .Loginbox:focus {
+    outline: none;
+  }
+  .Login p {
+    padding: 4px;
+  }
+  .button {
+    border: none;
+    width: 30px;
+    padding: 2px;
+    background-color: white;
+  }
+  .BsBagbutton {
+    font-size: 10px;
+    color: blue;
+  }
+  .profilbox {
+    height: 100px;
+    width: 80px;
+    margin-top: 4px;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    position: absolute;
+  }
+  .Register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: transparent;
+  }
+  .backgroundimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1585435557343-3b092031a831?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWVkaWNhbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80  "); /* Replace with your image file path */
+    background-size: 100%;
+    background-position: center;
+    opacity: 0.5;
+  }
+  .centercontainer {
+    text-align: center;
+    z-index: 2;
+  }
+  .registrationform {
+    /* Your form styles */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    width: 250px;
+    margin-right: 400px;
+    height: 300px;
+  }
+  .Loginform {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    width: 250px;
+    margin-right: 400px;
+    height: 220px;
+  }
+  .facebook {
+    height: 20px;
+    width: 100px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    color: #4267b2;
+  }
+  input {
+    width: 150px;
+    height: 20px;
+    padding: 5px;
+  }
+  .submit {
+    width: 150px;
+    background-color: #4e97fd;
+    border: 1px solid black;
+    color: white;
+  }
+  .centeredapp {
+    height: 250px;
+    width: 300px;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 0px;
+    margin-left: 215px;
+    margin-right: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 43%;
+    transform: translateY(-50%);
+    background-color: white;
+    z-index: 1;
+  }
+  .searchproducts {
+    height: 62.5px;
+    width: 280px;
+    margin: auto;
+    /* border: 1px solid black; */
+    display: flex;
+  }
+  .image {
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .imgcontainer {
+    height: 50px;
+    width: 60px;
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    margin-top: 5px;
+    /* background-color: cadetblue; */
+  }
+  .button1 {
+    font-size: 08px;
+    background-color: #87a2ebe4;
+    margin-left: 25px;
+    border: none;
+    color: black;
+    width: 70px;
+  }
+  
+  /* ======================================================================================= */
+  .DropDownnav {
+    height: 20px;
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid rgb(203, 150, 150); */
+    margin-bottom: 40px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .Maincontainer {
+    height: 20px;
+    width: 80%;
+    margin-right: auto;
+    display: flex;
+    /* border: 1px solid red; */
+  }
+  .container {
+    position: relative;
+    width: auto;
+    height: 20px;
+    /* border: 1px solid rgb(62, 16, 114); */
+    font-family: Nunito, sans-serif;
+  
+    font-size: 08px;
+    padding: 2px;
+  }
+  
+  .Unorderlist {
+    list-style-type: none;
+    font-family: Nunito, sans-serif;
+    font-weight: 100;
+    font-size: 08px;
+    align-content: center;
+  }
+  .list {
+    padding: 2px;
+    justify-content: center;
+    text-align: left;
+  }
+  .box {
+    width: auto;
+    height: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid black; */
+    z-index: 2;
+    background-color: white;
+  }
+  .shawdo {
+    position: fixed;
+    /* border: 1px solid black; */
+    margin-top: 0px;
+    z-index: 2;
+  }
+  
